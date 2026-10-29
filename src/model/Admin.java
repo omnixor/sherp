@@ -1,19 +1,8 @@
 package model;
 
 public class Admin extends User {
-    private String password;
-
-    public Admin(int adminId, String username, String password) {
+    public Admin(int adminId, String username) {
         super(adminId, username);
-        this.password = password;
-    }
-
-    public String getPassword() {
-        return password;
-    }
-
-    public void setPassword(String password) {
-        this.password = password;
     }
 
     @Override
